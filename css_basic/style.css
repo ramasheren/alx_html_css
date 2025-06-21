@@ -18,3 +18,8 @@ aside {
   flex: 1;
   overflow-y: auto;
 }
+
+.logo {
+  font-size: 2em;
+  margin-right: 15px;
+}
