@@ -1,45 +1,29 @@
-# alx_html_css
-# 🎧 Headphones Landing Page
+# 🎧 Headphones Landing Page - ALX HTML & CSS Project
 
-This project is a responsive landing page for a fictional **headphones brand**, built using **HTML** and **CSS** as part of the ALX Frontend curriculum. It is designed based on a Figma prototype and includes responsive design, hover/active interactions, and clean layout practices.
-
----
-
-## 📁 Project Structure
-
-**Repository:** `alx_html_css`  
-**Directory:** `headphones`  
-**Main Files:**
-- `index.html`
-- `styles.css`
-- `README.md`
+This project is a fully responsive landing page for a fictional headphone brand. It was built using HTML and CSS, following best practices for layout, responsiveness, and design integration from a Figma file.
 
 ---
 
-## 🖌️ Design Reference
+## 📐 Features
 
-- The original design is provided via a **Figma file**. Make sure to **Duplicate to your Drafts** in Figma to access all design layers and details.
-- If you don't have the fonts used in the design, you can download them here:
-  - [Source Sans Pro (Google Fonts)](https://fonts.google.com/specimen/Source+Sans+Pro)
-  - Spin-Cycle-OT (usually included in the Figma project or available via font hosting services)
-
----
-
-## ✅ Features
-
-- Fully responsive layout
-- Switches to **mobile view at screen width ≤ 480px**
-- Max content width: **1000px**, centered
-- Interactive styles:
-  - **Links**: Change color on hover/active to `#FF6565`
-  - **Buttons**: Change opacity on hover/active to `0.9`
-- Clean semantic HTML5 and structured CSS
+- Responsive layout (desktop and mobile views)
+- Mobile version triggered at `max-width: 480px`
+- Interactive button hover effects (`opacity: 0.9`)
+- Active/hover links color: `#FF6565`
+- Content container max width: `1000px`, centered on the page
+- Typography support for `Source Sans Pro` and `Spin-Cycle-OT` fonts
+- Clean and semantic HTML structure
 
 ---
 
-## 💻 How to Run
+## 🛠️ Technologies Used
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/alx_html_css.git
-   cd alx_html_css/headphones
+- HTML5
+- CSS3
+- Media Queries
+- Flexbox and basic layout techniques
+
+---
+
+## 📁 Folder Structure
+
