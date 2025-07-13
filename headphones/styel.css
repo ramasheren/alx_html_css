@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* Start Header */
+
+header {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+header .logo img {
+  height: 30px;
+}
+header nav {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+header ul {
+  display: flex;
+}
+header ul li a {
+  padding: 40px 10px;
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+  position: relative;
+}
+header ul li a:hover {
+  color: cadetblue;
+}
+/* End Header */
+/* Start landing */
+.landing {
+  min-height: 100vh;
+  background-image: url(img/headphones_hero_1.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center; /* محاذاة أفقية */
+  align-items: center; /* محاذاة رأسية */
+  text-align: center; /* محاذاة النص */
+}
+
+.landing .text {
+  padding: 20px;
+  max-width: 600px; /* بدل ما تتمدد على كامل الصفحة */
+  color: white;
+}
+
+.bt {
+  background-color: rgb(238 86 86);
+  width: 200px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  border-radius: 180px;
+}
+/* End landing */
+/* Start after end  */
+.landing2 {
+  padding: 100px;
+  padding-top: 100px;
+  min-height: 70vh;
+  background-image: url(img/headphones_hero_2.jpg);
+  background-size: cover;
+}
+.landing2 p {
+  color: white;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+/* مسافة قبل الصور */
+.imge8 {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* مسافات بين الصور */
+  margin-top: 40px; /* المسافة من الكلام اللي قبل الصور */
+}
+
+.img-item {
+  position: relative;
+}
+
+.img-item img {
+  display: block;
+}
+
+.img-item .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+.img-item img {
+  display: block;
+  width: 250px; /* الحجم اللي تبيه */
+  height: auto; /* يحافظ على التناسق */
+}
+
+/* End after end  */
+/* Start after End2  */
+.end2 {
+  height: 80vh;
+}
+.hr1 {
+  width: 700px;
+  padding: 327px;
+}
+.hr2 {
+  width: 400px;
+  margin: 50px;
+  left: 50%;
+}
+/* End after End2  */
+/* Start Footer */
+footer {
+  height: 40vh;
+  background-color: #09192d;
+  color: white;
+  padding: 30px;
+}
+/* End Footer */

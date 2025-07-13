@@ -1,0 +1,247 @@
+/*fonts */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
+
+/* reset */
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #f0f0f0;
+  color: #071629;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* positioning */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  background-color: white;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+header img {
+  width: 100px;
+  height: auto;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 4em;
+  margin-bottom: 20px;
+}
+
+.get_schooled {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.pros_header {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.pros {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.pro {
+  width: 200px;
+}
+
+.pro img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#qoute {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  background-color: #c271ff;
+  color: white;
+  gap: 50px;
+}
+
+#qoute img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.testimonial {
+  max-width: 600px;
+}
+
+#COURSE {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.tutorials {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.course {
+  width: 250px;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.course img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.course-content {
+  padding: 15px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #c271ff;
+}
+
+.grey {
+  color: #d8d8d8;
+}
+
+#PRICING {
+  background-color: #071629;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.membership-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 50px 0;
+  flex-wrap: wrap;
+}
+
+.membership {
+  width: 200px;
+}
+
+.membership img {
+  width: 50px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+#FAQ {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.faq-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.faq {
+  width: 350px;
+  text-align: left;
+}
+
+footer {
+  background-color: #071629;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+footer section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer .social {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+/* buttons */
+.reg {
+  background-color: #c271ff;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 1em;
+}
+
+.reg:hover {
+  background-color: #9a4dca;
+}
+
+/* typography */
+h1 {
+  font-size: 3.5em;
+  font-weight: 700;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 300;
+}
+
+h2 strong {
+  font-weight: 700;
+  color: #c271ff;
+}
+
+h3 {
+  font-size: 1.3em;
+  font-weight:600;

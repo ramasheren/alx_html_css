@@ -1,0 +1,29 @@
+body {
+  display: flex; /* خلي البودي فلكس */
+  flex-direction: column; /* خلي ترتيب العناصر جوا البودي عمودي (عمود) */
+  background-color: #f5f5f5;
+}
+
+main {
+  display: flex; /* خلي المين فلكس */
+  flex-direction: row; /* خلي ترتيب العناصر جوا المين صف */
+  flex: auto; /* خلي حجم المين تلقائي */
+}
+article {
+  flex: 2; /* ياخد مكان 2 وحدات */
+  overflow-y: auto; /* يضيف تمرير رأسي لو المحتوى طويل */
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+aside {
+  flex: 1; /* ياخد مكان وحدة واحدة */
+  overflow-y: auto; /* يضيف تمرير رأسي لو المحتوى طويل */
+}
+
+.logo {
+  font-size: 40px;
+  color: #f80002;
+}
